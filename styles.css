@@ -33,7 +33,6 @@ body {
   box-shadow: 0 8px 40px rgba(35, 35, 35, 0.1);
   color: #000;
   border-radius: 20px;
-  transform: scale(0.75);
 }
 .container {
   position: absolute;
