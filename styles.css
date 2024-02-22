@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.container-vismis {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  height: clamp(300px, 90%, 900px);
+  width: 900px;
+  width: clamp(300px, 90%, 900px);
+  background: #fff;
+  border: 1px solid rgb(255, 255, 255 0.1);
+  box-shadow: 0 8px 40px rgba(35, 35, 35, 0.1);
+  color: #000;
+  transform: scale(0.75);
+  border-radius: 20px;
+}
+
+.img {
+  position: absolute;
+  height: 800px;
+  size: cover;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.1;
+}
+.phil {
+  border: 1px solid #00ff11;
+  background: #1e00ff;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 5vh;
+  width: 100%;
+  opacity: 1;
+  color: #fff;
+  font-size: 2rem;
+}
+.fai {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+  opacity: 1;
+}
+.mis {
+  border: 1px solid #00ff11;
+  background: #ffff00;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 5vh;
+  width: 100%;
+  opacity: 1;
+  color: #000;
+  font-size: 2rem;
+}
+
+.tobe {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+}
+.vis {
+  border: 1px solid #00ff11;
+  background: #ff0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  opacity: 1;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.prov {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+  opacity: 1;
+}
+.goal {
+  border: 1px solid #00ff11;
+  background-color: #00a058;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  opacity: 1;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.towi {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+}
+.obj {
+  border: 1px solid #00ff11;
+  background-color: #030376;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 2;
+}
+.l1 {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+  height: 100px;
+}
+.l2 {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+}
+.l3 {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+}
+.l4 {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00ff11;
+  width: 100%;
+  height: 120px;
+}
+@media all and (min-width: 800px) {
+  .container-vismis {
+    flex: 3;
+  }
+  .phil {
+    flex: 1;
+  }
+  .fai {
+    flex: 1;
+  }
+  .mis {
+    flex: 1;
+  }
+  .tobe {
+    flex: 1;
+  }
+  .vis {
+    flex: 1;
+  }
+  .prov {
+    flex: 1;
+  }
+  .goal {
+    flex: 1;
+  }
+  .towi {
+    flex: 1;
+  }
+  .obj {
+    flex: 1;
+  }
+  .l1 {
+    flex: 1;
+  }
+  .l2 {
+    flex: 1;
+  }
+  .l3 {
+    flex: 1;
+  }
+  .l4 {
+    flex: 1;
+    flex-shrink: 3;
+  }
+}
+@media all and (min-width: 600px) {
+  .container-vismis {
+    flex: 3;
+  }
+  .phil {
+    flex: 1;
+  }
+  .fai {
+    flex: 1;
+  }
+  .mis {
+    flex: 1;
+  }
+  .tobe {
+    flex: 1;
+  }
+  .vis {
+    flex: 1;
+  }
+  .prov {
+    flex: 1;
+  }
+  .goal {
+    flex: 1;
+  }
+  .towi {
+    flex: 1;
+  }
+  .obj {
+    flex: 1;
+  }
+  .l1 {
+    flex: 1;
+  }
+  .l2 {
+    flex: 1;
+  }
+  .l3 {
+    flex: 1;
+  }
+  .l4 {
+    flex: 1;
+  }
+}
